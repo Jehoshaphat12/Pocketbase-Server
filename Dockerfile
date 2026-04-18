@@ -5,7 +5,6 @@ RUN apk add --no-cache ca-certificates
 WORKDIR /pb
 
 COPY pocketbase .
-COPY pb_data ./pb_data
 
 RUN chmod +x /pb/pocketbase
 
